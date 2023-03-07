@@ -1,0 +1,29 @@
+.curriculum {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 19, 19, 0.945);
+
+}
+
+.titulo{
+    font-size: 36px;
+    color: azure;
+}
+
+strong {
+    color: rgba(247, 15, 15, 0.945);
+}
+
+
+
+
+
+
+
+
+
+
+

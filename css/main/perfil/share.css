@@ -1,0 +1,163 @@
+.share__button {
+    width: 80%;
+    height: 80px;
+    background: #a6a8ade0;
+    border-radius: 40px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: .3s linear;
+    gap: 1rem;
+}
+
+.share__button span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(247, 15, 15);
+    font-size: 2rem;
+    color: #f1f1f1;
+    text-align: center;
+    line-height: 80px;
+    z-index: 999;
+    transition: .6s linear;
+    border-radius: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.share__button:hover {
+    transform: scale(1.1);
+}
+
+.share__button:hover span {
+    transform: translateX(-100%);
+    transition-delay: .3s;
+}
+
+.avatar__share {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    content: "\1F87D";
+}
+
+.avatar__share:hover{
+    
+    cursor: wait;
+}
+
+.separar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #464646;
+    content: "1F87D";
+}
+
+.share__item {
+    font-size: 10px;
+    padding: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.share__item{
+    cursor: wait;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .share__button {
+        position: relative;
+        width: 50%;
+        height: 15%;
+        background: #dbcbcb;
+        font-size: 1rem;
+        color: #f1f1f1;
+        text-align: center;
+        line-height: 2px;
+        z-index: 999;
+        transition: .3s linear;
+        border-radius: 50 px;
+        cursor: pointer;
+
+        gap: 1px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .share__button span {
+        
+        align-items: center;
+        padding-bottom: 1rem;
+        background: #2d3436;
+        color: #f1f1f1;
+        text-align: center;
+        line-height: 40px;
+        z-index: 999;
+        transition: .6s linear;
+        border-radius: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+        position: absolute;
+        font-size: 1rem;
+    }
+
+    .avatar__share {
+        width: 15px;
+        height: 15px;
+    }
+
+    .share__item {
+        font-size: 6px;
+
+    }
+}
+@media screen and (max-width: 360px) {
+    .share__button {
+        position: relative;
+        width: 50%;
+        height: 5%;
+        background: #e9dfdf;
+        font-size: 1rem;
+        color: #f1f1f1;
+        text-align: center;
+        line-height: 2px;
+        z-index: 999;
+        transition: .3s linear;
+        border-radius: 22 px;
+        cursor: pointer;
+
+        gap: 4px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .share__button span {
+        align-items: center;
+        padding-bottom: 2rem;
+        background: #2d3436;
+        color: #f1f1f1;
+        text-align: center;
+        line-height: 60px;
+        z-index: 999;
+        transition: .6s linear;
+        border-radius: 40px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+        position: absolute;
+        font-size: 1rem;
+    }
+
+    .avatar__share {
+        width: 15px;
+        height: 15px;
+    }
+
+    .share__item {
+        font-size: 6px;
+
+    }
+}

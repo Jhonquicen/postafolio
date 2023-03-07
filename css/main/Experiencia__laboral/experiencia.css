@@ -1,0 +1,269 @@
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(20, 19, 19, 0.945);
+}
+
+.titulo__experiencia{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    display: flex;
+    justify-content: center;
+    color: #747272;
+}
+.trabajos{
+    width: 100%;
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    list-style: none;
+    
+    gap: 20px;
+}
+
+.imagen__trabajos{
+    width: 50%;
+    height: 600px;
+    
+}
+
+.descripcion__trabajos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: 20px;
+}
+
+.botones__trabajos{
+    display: flex;
+    gap: 20px;
+}
+
+.button__repositorio{
+    text-decoration: none;
+}
+
+.li__trabajos{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+
+.descripcion__trabajos__solo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: -1;
+    padding-right: 1rem;
+    gap: 20px;
+}
+
+.titulo__descripcion{
+    font-size: 30px;
+    color: rgba(245, 245, 220, 0.795);
+}
+
+.p__descripcion{
+    color: rgba(245, 245, 220, 0.479);
+}
+
+#botones__solo{
+    padding-left: 1rem;
+    
+}
+
+button{
+    border: 0;
+    background-image: linear-gradient(
+        150deg,
+        #9500ff,
+        #09f,
+        #00DDFF
+    );
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+
+button span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+
+button:hover span{
+    background: none;
+}
+
+button:active{
+    transform: scale(0.9);
+}
+
+/*boton del demo*/
+
+.button__demo{
+    text-decoration: none;
+    
+}
+button .span__demo{
+    background-color: #f80505fb;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .li__trabajos{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    .imagen__trabajos{
+        width: 60%;
+        height: 100%;
+    }
+    .descripcion__trabajos{
+        width: 100%;
+        height: 100%;
+        padding: 10px
+        
+    }
+    .titulo__descripcion{
+        font-size: 20px;
+    }
+    .p__descripcion{
+        font-size: 15px;
+    }
+    button{
+        border: 0;
+        background-image: linear-gradient(
+            150deg,
+            #9500ff,
+            #09f,
+            #00DDFF
+        );
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        font-size: 18px;
+        padding: 4px;
+        cursor: pointer;
+        transition: .3s;
+        
+    }
+    
+    button span{
+        background-color: #111;
+        padding: 15px 5px;
+        border-radius: 3px;
+        transition: .3s;
+    }
+    
+    button:hover span{
+        background: none;
+    }
+    
+    button:active{
+        transform: scale(0.9);
+    }
+    
+    /*boton del demo*/
+    
+    .button__demo{
+        text-decoration: none;
+        
+    }
+    button .span__demo{
+        background-color: #f80505fb;
+        padding: 5px 15px;
+        border-radius: 3px;
+        transition: .3s;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .li__trabajos{
+        display: flex;
+        flex-direction: column;
+    }
+    .imagen__trabajos{
+        order: -1;
+        width: 100%;
+        height: 30%;
+    }
+
+    .titulo__descripcion{
+        font-size: 25px;
+    }
+
+    button{
+        border: 0;
+        background-image: linear-gradient(
+            150deg,
+            #9500ff,
+            #09f,
+            #00DDFF
+        );
+        border-radius: 8px;
+        color: #fff;
+        display: flex;
+        font-size: 18px;
+        padding: 4px;
+        cursor: pointer;
+        transition: .3s;
+        
+    }
+    
+    button span{
+        background-color: #111;
+        padding: 10px 10px;
+        border-radius: 3px;
+        transition: .3s;
+    }
+    
+    button:hover span{
+        background: none;
+    }
+    
+    button:active{
+        transform: scale(0.9);
+    }
+    
+    /*boton del demo*/
+    
+    .button__demo{
+        text-decoration: none;
+        
+    }
+    button .span__demo{
+        background-color: #f80505fb;
+        padding: 10px 5px;
+        border-radius: 3px;
+        transition: .3s;
+        
+    }
+    
+}
+
+

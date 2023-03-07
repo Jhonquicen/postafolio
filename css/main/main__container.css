@@ -1,0 +1,13 @@
+/* .main__container{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (max-width: 678px) {
+    .container{
+        width: 100%;
+        background-color: chartreuse;
+        border: 10px solid black;
+    }
+} */

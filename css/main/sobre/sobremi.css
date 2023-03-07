@@ -1,0 +1,105 @@
+.section__sobre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgba(20, 19, 19, 0.945);
+    padding: 2rem;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.sobre__titulo {
+
+    width: 137px;
+    height: 38px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: rgb(216, 216, 196);
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+strong {
+    color: rgba(247, 15, 15, 0.945);
+}
+
+p {
+    color: rgba(255, 235, 205, 0.87);
+}
+
+
+.imagen__curriculum {
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 10px #f81504;
+}
+
+
+.imagen__curriculum:hover {
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px #ec731e;
+    transform: rotate(360deg);
+
+}
+
+@media screen and (max-width: 768px) {
+    .section__sobre{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    p{
+        font-size: 11px;
+    }
+    .curriculum{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .imagen__curriculum{
+        
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .section__sobre{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        
+    }
+    p{
+        font-size: 11px;
+    }
+    .curriculum{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .imagen__curriculum{
+        
+        width: 20%;
+    }
+
+    .imagen__curriculum:hover {
+        border-radius: 20%;
+        box-shadow: 0px 0px 10px 10px #ec731e;
+        transform: rotate(360deg);
+    
+    }
+}
